@@ -2,12 +2,12 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Varela Round', sans-serif;
+    
 }
 * {
     box-sizing: border-box;
 }
 header{
-    grid-area: h;
     background-color: red;
     width: 100%;
     text-align: center;
@@ -19,10 +19,7 @@ header>p{
     margin: auto;
 }
 main{
-    grid-area: m;
     background-color: white;
-    grid-template-areas: "h"
-    "m";
 }
 
 .card{
@@ -31,6 +28,7 @@ main{
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
+    gap: 10px;
 }
 .kep{
     float: right;
@@ -48,6 +46,27 @@ button{
     color: white;
     font-size: 14px;
 }
+footer{
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+}
+button:hover{
+    background-color: blue;
+}
 span{
     padding-right: 5px;
+}
+
+@media screen and (max-width: 700px)
+{
+    .card{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .card{
+        width: 100%;
+    }
 }
