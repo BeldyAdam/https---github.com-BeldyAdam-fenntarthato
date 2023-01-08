@@ -213,10 +213,33 @@ nav>div>ul>li{
     {
         width: 70%;
     }
+    article>p{
+        padding: 0 120px 80px 120px;
+       
+    }
+    .kep>img{
+        width: 250px;
+    }
+
 }
 @media screen and (max-width: 400px)
 {
     .card{
         width: 100%;
+    }
+    article>p{
+        padding: 0 60px 80px 60px;
+    }
+    .page1{
+        width: 80%;
+    }
+    .kep>img{
+    width: 170px;
+    }
+    .kezdolap{
+        padding: 300px 0px 200px 0px;
+    }
+    header{
+        padding: 230px 20px 210px 20px;
     }
 }
