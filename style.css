@@ -53,6 +53,7 @@ header>p{
 .kep>img{
     width: 250px;
     border-radius: 10px;
+    box-shadow: 9px 8px 13px #0000003d;
 }
 button{
     background-color: red;
