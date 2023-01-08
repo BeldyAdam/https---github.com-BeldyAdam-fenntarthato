@@ -63,7 +63,7 @@ button{
     border: 0.5px solid gray;
     padding: 6px 20px 6px 20px;
     color: white;
-    font-size: 14px;
+    font-size: 14.2px;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -91,12 +91,14 @@ button{
 }
 button:hover{
     background-color: #222e92;
+    transform: scale(1.05);
 }
 footer{
     text-align: center;
     background-color: #607d8b;
     padding: 10px;
     color: white;
+    font-size: 13px;
 }
 
 span{
@@ -118,6 +120,18 @@ article{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 200px;
+}
+.galeria{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+.galeria>div>img{
+    width: 300px;
+    border: 5px solid rgb(79 79 79 / 18%);
+    padding: 0;
 }
 article>h1{
     padding:60px 10px 12px 10px;
