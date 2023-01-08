@@ -126,12 +126,13 @@ article{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 10px;
+    gap: 15px;
 }
 .galeria>div>img{
-    width: 300px;
-    border: 5px solid rgb(79 79 79 / 18%);
-    padding: 0;
+    width: 100%;
+    border: 4px solid #0000001a;
+    padding: 4px;
+    border-radius: 3px;
 }
 article>h1{
     padding:60px 10px 12px 10px;
@@ -202,6 +203,15 @@ nav>div>ul>li{
     }
     .card{
         width: 90%;
+    }
+    .galeria{
+        grid-template-columns: auto;
+        gap: 50px;
+        width: 100%;
+    }
+    .galeria>div>img
+    {
+        width: 70%;
     }
 }
 @media screen and (max-width: 400px)
