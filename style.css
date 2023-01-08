@@ -21,7 +21,7 @@ header{
     background-size: cover;
     color: white;
     background-attachment: fixed;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 4px #000000c7;
     
 }
 .page2_hatter{
@@ -31,10 +31,6 @@ header>p{
     width: 50%;
     text-align: center;
     margin: auto;
-}
-.kezdolap
-{
-    text-shadow: 2px 2px 5px black;
 }
 .card{
     width: 60%;
@@ -104,8 +100,13 @@ span{
     text-align: center;
     width: 70%;
     margin: auto;
-    padding: 210px 40px 210px 40px;
+    padding: 300px 40px 200px 40px;
     color: white;
+    text-shadow: 2px 2px 4px #000000c7;
+}
+.nyil{
+    -webkit-transform: rotate(90deg);
+    font-size: 50px;
 }
 article{
     text-align: center;
@@ -117,7 +118,7 @@ article>h1{
     margin-bottom: 0;
 }
 article>p{
-    padding: 0 10px 80px 10px;
+    padding: 0 220px 80px 220px;
 }
 .page2{
     width: 150px;
