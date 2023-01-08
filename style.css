@@ -170,7 +170,7 @@ nav>div>ul>li>a{
 }
 nav>div>ul>li>a:hover{
     transition: 0.2s;
-    color: bisque;
+    color: #d4d4d3;
 }
 nav>div>ul>li{
     width: 85px;
