@@ -27,6 +27,12 @@ header{
 .page2_hatter{
     background-image: url(kepek/ocean1.jpg);
 }
+.page3_hatter{
+    background-image: url(kepek/trash1.jpg);
+}
+.page4_hatter{
+    background-image: url(kepek/elovilag3.png);
+}
 header>p{
     width: 50%;
     text-align: center;
@@ -88,7 +94,7 @@ button:hover{
 }
 footer{
     text-align: center;
-    background-color: #ba003d;
+    background-color: #607d8b;
     padding: 10px;
     color: white;
 }
