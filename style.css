@@ -52,28 +52,36 @@ header>p{
     padding: 30px;
     padding-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
-    gap: 10px;
+    grid-template-areas: "h h"
+    "p k"
+    "g g";
+    gap: 5px;
     text-align: start;
 }
+.card_h3{ grid-area: h;}
+.card_p{grid-area: p;}
+.card_gomb{grid-area: g;}
+.card_kep{grid-area: k;}
+.card_h3>h3{margin: 0;}
 .kep{
-    float: right;
     padding: 10px;
 }
 .kep>img{
-    width: 300px;
+    width: 295px;
     border-radius: 10px;
     box-shadow: 9px 8px 13px #0000003d;
 }
 button{
     background-color: red;
-    border-radius: 15px;
+    border-radius: 22px;
     border: 0.5px solid gray;
     padding: 6px 20px 6px 20px;
     color: white;
-    font-size: 14.2px;
+    font-size: 14.4px;
     transition: all 0.5s;
     cursor: pointer;
+    width: 125px;
+    height: 36px;
 }
 .gomb span {
     cursor: pointer;
@@ -173,11 +181,12 @@ iframe{
     width: 600px;
     text-align: center;
     margin: auto;
-    height: 2.5px;
-    background-color: red;
+    height: 2.7px;
+    background-color: #e11616;
     border-radius: 300px;
     margin-top: 20px;
     margin-bottom: 50px;
+    border: 0;
 }
 nav>div>ul{
     margin: 0;
@@ -217,13 +226,21 @@ nav>div>ul>li{
 }
 @media screen and (max-width: 700px)
 {
+    .card_h3{font-size: 22px;}
+    .kep>img{margin-top: 0;}
     .hatterkezdo{
         padding: 150px 50px 150px 50px;
         background-position-y: -240px;
     }
     .card{
         width: 90%;
+        grid-template-areas: "h h"
+                             "k k"
+                             "p p"
+                             "g g";
+        text-align: center;
     }
+    .card_gomb{margin-top: 0;}
     .galeria{
         grid-template-columns: auto;
         gap: 50px;
@@ -238,7 +255,12 @@ nav>div>ul>li{
        
     }
     .kep>img{
-        width: 250px;
+        width: 75%;
+    }
+    button{    
+        width: 175px;
+        height: 33px;
+        color: #fffffff2;
     }
 
 }
@@ -246,7 +268,13 @@ nav>div>ul>li{
 {
     .card{
         width: 100%;
+         grid-template-areas: "h h"
+                             "k k"
+                             "p p"
+                             "g g";
+        text-align: start;
     }
+    .card_h3{text-align: center;}
     article>p{
         padding: 0 60px 80px 60px;
     }
@@ -254,7 +282,7 @@ nav>div>ul>li{
         width: 80%;
     }
     .kep>img{
-    width: 170px;
+    width: 100%;
     }
     .kezdolap{
         padding: 300px 0px 200px 0px;

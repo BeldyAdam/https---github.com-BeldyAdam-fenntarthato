@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kezdőlap</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <div class="hatter">
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+        </ul>
+    </div>
+    </nav>
     <header class="hatterkezdo">
         <h1>Az óceánok tisztasága</h1>
         <p class="nyil"><a href="#ugras">&#x203A;</a></p>
@@ -28,31 +34,37 @@
     <main>
         <article id="ugras">
                 <div class="card">
-                <div>
-                <h3><span>&#9733;</span>Miért fontos hogy tisztán tartsuk vizeinket?</h3>
-                <p>A víz alapvető életünkhöz elengedhetetlen szerepet tölt be, hiszen a testünk több mint 70%-át is víz alkotja. Egy átlag embernek naponta körülbelül 2-3L víz lenne az optimális. A populáció növekedésével arányosan nőtt a szemét mennyisége amit már nem tudnak, vagy nem is akarnak elégetni a szemétégetőkben, így a tengerekbe, óceánokba szórják.....
-                </p>
-                <a href="viz_tisztasag.html"><button class="gomb"><span>Bővebben </span></button></a>
+                <div class="card_h3"> <h3><span>&#9733;</span>Miért fontos hogy tisztán tartsuk vizeinket?</h3>
                 </div>
-                <div class="kep"><img src="kepek/ocean1.jpg" alt="Oceán kép"></div>
+                <div class="card_p"> <p>A víz alapvető életünkhöz elengedhetetlen szerepet tölt be, hiszen a testünk több mint 70%-át is víz alkotja. Egy átlag embernek naponta körülbelül 2-3L víz lenne az optimális. A populáció növekedésével arányosan nőtt a szemét mennyisége amit már nem tudnak, vagy nem is akarnak elégetni a szemétégetőkben, így a tengerekbe, óceánokba szórják..... </p>
+                </div>
+                <div class="card_gomb"><button class="gomb"  onclick="window.location.href='viz_tisztasag.html';"><span>Bővebben </span></button>
+                </div>
+                <div class="card_kep"> <div class="kep"><img src="kepek/ocean1.jpg" alt=""></div>
+            </div>
             </div>
             <hr class="page1">
             <div class="card">
-                <div>
-                <h3><span>&#9733;</span>Milyen hatással van ez ránk, és az élővilágra?</h3>
-                <p>A tiszta víz = tiszta élet. Ha a vizeinket tisztán tartanánk ami alapvetően az életbenmaradáshoz fontos szerepet tölt be, úgy a környezetünk és mi is egészségesebbek maradnánk. A rengeteg szemét bomlása és égetése globális felmelegedéshez vezethet ami a mai napokban is jelen van. Sok esetben....</p>
-                    <a href="elovilag.html"><button class="gomb"><span>Bővebben </span></button></a>
-                </div>
-                <div class="kep"><img src="kepek/trash1.jpg" alt="Szemét a vizekben"></div>
+               
+                    <div class="card_h3"> <h3><span>&#9733;</span>Milyen hatással van ez ránk, és az élővilágra?</h3>
+                    </div>
+                    <div class="card_p">  <p>A tiszta víz = tiszta élet. Ha a vizeinket tisztán tartanánk ami alapvetően az életbenmaradáshoz fontos szerepet tölt be, úgy a környezetünk és mi is egészségesebbek maradnánk. A rengeteg szemét bomlása és égetése globális felmelegedéshez vezethet ami a mai napokban is jelen van. Sok esetben....</p>
+                    </div>
+                    <div class="card_gomb"><button class="gomb"  onclick="window.location.href='elovilag.html';"><span>Bővebben </span></button>
+                    </div>
+                    <div class="card_kep"><div class="kep"><img src="kepek/trash1.jpg" alt=""></div>
+                    </div>
             </div>
             <hr class="page1">
             <div class="card">
-                <div>
-                <h3><span>&#9733;</span>Mit tehetünk ellene?</h3>
-                <p>Már mi magunk is tehetünk azért, hogy ne keletkezzen túl sok szemét. A szelektív hulladékgyüjtés, és újrahasznosítás egy remek módszer arra hogy csökkentsük a felesleges hulladék gyűlését....</p>
-                <a href="ujrahasznositas.html"><button class="gomb"><span>Bővebben </span></button></a>
+                <div class="card_h3"><h3><span>&#9733;</span>Mit tehetünk ellene?</h3>
                 </div>
-                <div class="kep"><img src="kepek/elovilag3.png" alt="Korall zátony"></div>
+                <div class="card_p"><p>Már mi magunk is tehetünk azért, hogy ne keletkezzen túl sok szemét. A szelektív hulladékgyüjtés, és újrahasznosítás egy remek módszer arra hogy csökkentsük a felesleges hulladék gyűlését....</p>
+                </div>
+                <div class="card_gomb"><button class="gomb"  onclick="window.location.href='ujrahasznositas.html';"><span>Bővebben </span></button>
+                </div>
+                <div class="card_kep"><div class="kep"><img src="kepek/elovilag3.png" alt=""></div>
+                </div>
             </div>
         </article>
         <footer>Készítette: Béldy Ádám, Fűrész Bence</footer>
