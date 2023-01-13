@@ -54,11 +54,11 @@ header>p{
     display: grid;
     grid-template-areas: "h h"
     "p k"
-    "g g";
+    "g k";
     gap: 5px;
     text-align: start;
 }
-.card_h3{ grid-area: h;}
+.card_h3{ grid-area: h; font-size: 21px; margin-bottom: 5px;}
 .card_p{grid-area: p;}
 .card_gomb{grid-area: g;}
 .card_kep{grid-area: k;}
@@ -81,7 +81,7 @@ button{
     transition: all 0.5s;
     cursor: pointer;
     width: 125px;
-    height: 36px;
+    height: 32.5px;
 }
 .gomb span {
     cursor: pointer;
