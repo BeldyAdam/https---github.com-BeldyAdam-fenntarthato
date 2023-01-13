@@ -262,6 +262,9 @@ nav>div>ul>li{
         height: 33px;
         color: #fffffff2;
     }
+    .felsorolas{
+        width: 75%;
+    }
 
 }
 @media screen and (max-width: 400px)
@@ -290,5 +293,8 @@ nav>div>ul>li{
     .hatterkezdo{
         padding: 230px 20px 210px 20px;
         background-position-y: 0;
+    }
+    .felsorolas{
+        width: 75%;
     }
 }
