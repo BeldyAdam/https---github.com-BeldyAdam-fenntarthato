@@ -1,74 +1,44 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kezdőlap</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav>
-        <div class="hatter">
-        <ul>
-            <li><a href="index.html">Kezdőlap</a></li>
-        </ul>
-    </div>
-    </nav>
-    <header class="hatterkezdo">
-        <h1>Az óceánok tisztasága</h1>
-        <p class="nyil"><a href="#ugras">&#x203A;</a></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KIfesto_szinek</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="SzínPaletta.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <div class="kezdolap">
-            <h2>A fenntarthatóság: </h2>
-            <p>Amit kibocsátunk a környezetbe, meghaladhatja a természet azon képességét, hogy felszívja és feldolgozza azt. Sajnos a jelenlegi trendek alapján közel sem járunk ehhez. Károsanyag-kibocsátásunk évről évre növekszik, és bolygónk kapacitását már régóta túllépték.
-    
-                Nem tudunk többet kivonni a környezetből, mint amennyit a környezet képes reprodukálni. Jelenleg nincs egyensúlyban. Gondolj az erdőirtásra vagy a túlhalászásra.
-                
-                A nem megújuló erőforrásokat nem lehet gyorsabban felhasználni, mint ahogy azt megújuló erőforrásokkal pótolni tudjuk. Itt vannak a legjobb kilátásaink. 2019-ben az új villamosenergia-termelési kapacitások több mint 80%-át a megújuló energia tette ki. Ezért a fosszilis energia és a megújuló energia aránya évről évre jelentősen növekszik. A trendek szerint 2033-ra az áramtermelés több mint felét megújuló energia biztosítja</p>
-            </div>
-    </header>
+  <body>
     <main>
-        <article id="ugras">
-                <div class="card">
-                <div class="card_h3"> <h3><span>&#9733;</span>Miért fontos hogy tisztán tartsuk vizeinket?</h3>
-                </div>
-                <div class="card_p"> <p>A víz alapvető életünkhöz elengedhetetlen szerepet tölt be, hiszen a testünk több mint 70%-át is víz alkotja. Egy átlag embernek naponta körülbelül 2-3L víz lenne az optimális. A populáció növekedésével arányosan nőtt a szemét mennyisége amit már nem tudnak, vagy nem is akarnak elégetni a szemétégetőkben, így a tengerekbe, óceánokba szórják..... </p>
-                </div>
-                <div class="card_gomb"><button class="gomb"  onclick="window.location.href='viz_tisztasag.html';"><span>Bővebben </span></button>
-                </div>
-                <div class="card_kep"> <div class="kep"><img src="kepek/ocean1.jpg" alt=""></div>
-            </div>
-            </div>
-            <hr class="page1">
-            <div class="card">
-               
-                    <div class="card_h3"> <h3><span>&#9733;</span>Milyen hatással van ez ránk, és az élővilágra?</h3>
-                    </div>
-                    <div class="card_p">  <p>A tiszta víz = tiszta élet. Ha a vizeinket tisztán tartanánk ami alapvetően az életbenmaradáshoz fontos szerepet tölt be, úgy a környezetünk és mi is egészségesebbek maradnánk. A rengeteg szemét bomlása és égetése globális felmelegedéshez vezethet ami a mai napokban is jelen van. Sok esetben....</p>
-                    </div>
-                    <div class="card_gomb"><button class="gomb"  onclick="window.location.href='elovilag.html';"><span>Bővebben </span></button>
-                    </div>
-                    <div class="card_kep"><div class="kep"><img src="kepek/trash1.jpg" alt=""></div>
-                    </div>
-            </div>
-            <hr class="page1">
-            <div class="card">
-                <div class="card_h3"><h3><span>&#9733;</span>Mit tehetünk ellene?</h3>
-                </div>
-                <div class="card_p"><p>Már mi magunk is tehetünk azért, hogy ne keletkezzen túl sok szemét. A szelektív hulladékgyüjtés, és újrahasznosítás egy remek módszer arra hogy csökkentsük a felesleges hulladék gyűlését....</p>
-                </div>
-                <div class="card_gomb"><button class="gomb"  onclick="window.location.href='ujrahasznositas.html';"><span>Bővebben </span></button>
-                </div>
-                <div class="card_kep"><div class="kep"><img src="kepek/elovilag3.png" alt=""></div>
-                </div>
-            </div>
-        </article>
-        <footer>Készítette: Béldy Ádám, Fűrész Bence</footer>
+      <header>
+        <h1>Pixel kifestő</h1>
+        <div class="kepek"></div>
+        
+      </header>
+      <article class="kockak" style="display: none">
+        <div class="doboz"></div>
+      </article>
+      <aside class="tarolo" style="display: none">
+        <a href="index.html"><div class="szin"><p>➜</p></div></a>
+        <div></div>
+      </aside>
+      <div class="egyedi"><p>Készíts egyedit</p></div>
+      <footer class="ft" style="display: none">
+        Készítette: Fűrész Bence - Evinger Bónó - Béldy Ádám
+      </footer>
     </main>
-    
-</body>
+  </body>
 </html>
